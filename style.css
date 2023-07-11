@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    background-color: #f5f5f5;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-bottom: 20px;
+  }
+  
+  .switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .switch label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 34px;
+    cursor: pointer;
+  }
+  
+  .switch label:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+  
+  .switch input[type="checkbox"]:checked + label {
+    background-color: #000000;
+  }
+  
+  .switch input[type="checkbox"]:checked + label:after {
+    transform: translateX(26px);
+  }
+  
+
+header h1 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #050505;
+    text-shadow: 0 0 4px #646464;
+    font-family: Lexend Deca;
+}
+
+
+
+header img {
+    width: 10%;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    width: 500px;
+    margin-bottom: 180px;
+}
+
+main ul {
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+main ul li {
+    text-align: center;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+main ul li h2 {
+    font-family: Lexend Deca;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+main ul li h2:hover {
+    color: #ff1867;
+    text-shadow: 0 0 10px #ff1867,
+        0 0 3000px #ff1867,
+        0 0 1000px #ff1867;
+    transition: 0.5s;
+}
+
+main ul li button {
+    font-size: 20px;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    font-family: Lexend Deca;
+    color: #000;
+    background-color:  #ccc;
+    border: 2px;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+main ul li button:hover {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #ff1867;
+    box-shadow: 0 0 10px #ff1867,
+        0 0 30px #ff1867,
+        0 0 60px #ff1867;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h5 {
+    font-family: Lexend Deca;
+}
+
+/* dark */
+
+.dark {
+    background-color: #202020;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-bottom: 20px;
+  }
+  
+  .switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .switch label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 34px;
+    cursor: pointer;
+  }
+  
+  .switch label:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+  
+  .switch input[type="checkbox"]:checked + label {
+    background-color: #000000;
+  }
+  
+  .switch input[type="checkbox"]:checked + label:after {
+    transform: translateX(26px);
+  }
+  
+
+.dark-el{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    text-shadow: 0 0 4px #646464;
+    font-family: Lexend Deca;
+}
+
+
+
+header img {
+    width: 10%;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    width: 500px;
+    margin-bottom: 180px;
+}
+
+main ul {
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+main ul li {
+    text-align: center;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.dark-el-2 {
+    color: white;
+    font-family: Lexend Deca;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+main ul li h2:hover {
+    color: #ff1867;
+    text-shadow: 0 0 10px #ff1867,
+        0 0 3000px #ff1867,
+        0 0 1000px #ff1867;
+    transition: 0.5s;
+}
+
+.dark-el-4 {
+    font-size: 20px;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    font-family: Lexend Deca;
+    color: #ccc;
+    background-color: #111111;
+    border: 2px;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+main ul li button:hover {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #ff1867;
+    box-shadow: 0 0 10px #ff1867,
+        0 0 30px #ff1867,
+        0 0 60px #ff1867;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dark-el-3{
+    color: #ffffff;
+    font-weight: 100;
+    font-family: Lexend Deca;
+}
+
+@media screen and (max-width: 600px) {
+    main img {
+        opacity: 0.1;
+        z-index: -1;
+        position: absolute;
+        width: 90%;
+        margin-bottom: 300px;
+    }
+    header img {
+        width: 30%;
+        margin-bottom: 60px;
+        margin-top: 80px;
+    }
+}
