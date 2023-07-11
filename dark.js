@@ -8,14 +8,12 @@ toggle.addEventListener("change", function() {
       
       logoImage.src = "Lsrx-logo-w.png";
       leoImage.src = "cyber-leo-black.png"
-      siteLink.href = "site-black.html";
   
       
     } else {
       
       logoImage.src = "Lsrx-logo.png";
       leoImage.src = "cyber-leo.png"
-      siteLink.href = "site.html";
 
     }
 
